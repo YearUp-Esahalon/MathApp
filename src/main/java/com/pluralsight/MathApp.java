@@ -25,6 +25,38 @@ public class MathApp {
         //Print the result
         System.out.println("The smallest price is: " + smallestPrice);
 
+        //Define the Radius
+        double radius = 7.25;
+
+        //Calculate the area of the circle
+         double area =Math.PI * radius * radius;
+
+         //Print the area
+        System.out.printf("The area of the circle with a radius %.2f is: %.2f%n", radius, area);
+
+        //Question:4
+        // Set the variable
+        double number = 5.0;
+
+        // Calculate the square root
+        double squareRoot = Math.sqrt(number);
+
+        // Print the result
+        System.out.printf("The square root of %.2f is: %.2f%n", number, squareRoot);
+
+        // Define the points
+        double x1 = 5;
+        double y1 = 10;
+        double x2 = 85;
+        double y2 = 50;
+
+        // Calculate the distance
+        double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+
+        // Print the result
+        System.out.printf
+
+
 
     }
 
