@@ -25,6 +25,7 @@ public class MathApp {
         //Print the result
         System.out.println("The smallest price is: " + smallestPrice);
 
+        //Question 3
         //Define the Radius
         double radius = 7.25;
 
@@ -44,13 +45,14 @@ public class MathApp {
         // Print the result
         System.out.printf("The square root of %.2f is: %.2f%n", number, squareRoot);
 
+        //Question:5
         // Define the points
         double x1 = 5;
         double y1 = 10;
         double x2 = 85;
         double y2 = 50;
 
-        // Calculate the distance
+        // Calculate distance
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
         // Print the result
